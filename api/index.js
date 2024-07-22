@@ -1,9 +1,9 @@
 let port = 3000;
 let express = require('express');
-let cors = require('cors');
+//let cors = require('cors');
 let app = express();
-app.use(cors());
-app.use(express.json());
+// app.use(cors());
+// app.use(express.json());
 
 
 app.get('/', (req, res) => {
