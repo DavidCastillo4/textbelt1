@@ -15,4 +15,6 @@ app.get('/', (req, res) => {
 });
 
 
-app.listen(port, () => { console.log(`port:${port}`); });
+app.listen(3000, () => { console.log(`port:${port}`); });
+
+module.exports = app;
