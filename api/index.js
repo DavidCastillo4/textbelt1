@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
  // let data = req.body
  // console.log(data)
  //console.log(`Received SMS reply from ${fromNumber}: ${text}`);
- res.status(200).send('24422');
+ res.status(200).send('2433444442');
 });
 
 
